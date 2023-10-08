@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+.products {
+    border: 4px solid #123234;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+
+ul {
+    list-style: none;
+}
+
+.product {
+    display: flex;
+    gap: 100px;
+    margin: 20px;
+    background-color: transparent;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    gap: none;
+    display: flex;
+    gap: 0;
+    border: none;
+   
+}
+
+.btn>input {
+    width: 30px;
+    border: none;
+    height: 25px;
+    text-align: center;
+}
+
+.btn>button {
+    width: 20px;
+    border: none;
+
+}
+
+.btn>button:nth-child(1) {
+    border-radius: 5px 0 0 5px;
+
+}
+
+.btn>button:nth-child(3) {
+    border-radius: 0 5px 5px 0;
+
+}
+
+.NoOfprd {
+    text-align: center;
+}
+
+/* Cart */
+.carts {
+    border: 4px solid #123234;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 300px;
+
+}
+
+.cart {
+    display: flex;
+    gap: 100px;
+    margin: 20px;
+    background-color: transparent;
+    height: 30px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+.amt {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.no_cart {
+    padding: 10px;
+}
+
+.total_div {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    padding: 5px;
+    border: 2px solid rgb(104, 88, 88);
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.no_cart{
+    margin: auto;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+
+.headings >div{
+font-weight: bold ;
+}
+.pr1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2px
+}
+li>img{
+    height: 25px;
+    width: 25px;
+}
+body{
+    /* background-image: linear-gradient(to left, blue,green, red); */
+    background-color: orangered;
+    color: aliceblue;;
+}
